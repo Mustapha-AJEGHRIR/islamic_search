@@ -6,5 +6,6 @@ This repository contains code for the islamic search application. It gives you t
 The folder `data_src` contains all the source code necessary to get the data.
 
 
+
 # Training
 see colab https://colab.research.google.com/drive/1rnRJgLYqIxLwwdQtKgYiX1xps4qfkvH2?usp=sharing 
