@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "islamic search"
+version = "0.1.0"
+description = ""
+authors = ["Mustapha-AJEGHRIR <mustapha.ajeghrir@hrflow.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+transformers = {extras = ["torch"], version = "^4.27.4"}
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+datasets = "^2.11.0"
+ipywidgets = "^8.0.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
